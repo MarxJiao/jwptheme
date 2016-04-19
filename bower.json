@@ -1,0 +1,24 @@
+{
+  "name": "jwptheme",
+  "description": "material design theme for WordPress",
+  "main": "app/index.php",
+  "authors": [
+    "Marx"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "wordpress"
+  ],
+  "homepage": "https://github.com/MarxJiao/jwptheme",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-material-design": "^0.5.9"
+  }
+}
