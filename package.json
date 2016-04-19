@@ -1,0 +1,22 @@
+{
+  "name": "jwptheme",
+  "version": "0.0.0",
+  "description": "material design theme for WordPress",
+  "main": "app/index.php",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarxJiao/jwptheme.git"
+  },
+  "keywords": [
+    "wordpress"
+  ],
+  "author": "Marx",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MarxJiao/jwptheme/issues"
+  },
+  "homepage": "https://github.com/MarxJiao/jwptheme#readme"
+}
