@@ -9,7 +9,7 @@
  * @since Twenty Thirteen 1.0
  */
 ?>
-
+<div class="panel">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> class="panel">
 	<header class="entry-header">
 		<?php if ( has_post_thumbnail() && ! post_password_required() && ! is_attachment() ) : ?>
@@ -62,3 +62,4 @@
 		<?php endif; ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post -->
+</div>
