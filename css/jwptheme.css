@@ -1,0 +1,66 @@
+/**
+ * sidebar
+ */
+.site-main .sidebar-container {
+  /*height: 0;*/
+  position: fixed;
+  width: 210px;
+  z-index: 1;
+  top: 60px;
+}
+.site-main .widget-area {
+  float: left;
+  width: 100%;
+}
+.site-main .widget {
+  font-size: 14px;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  margin: 0;
+  padding: 20px 0 0 0;
+  word-wrap: break-word;
+  border-bottom: 1px solid #ddd;
+}
+.site-main .widget li {
+  padding: 10px 0;
+}
+.site-main .widget li:hover {
+  background: #e7e7e7;
+}
+.site-main .widget a {
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  width: 100%;
+  padding: 10px 0 10px 30px;
+}
+.site-main .widget .widget-title {
+  font: 300 20px "Source Sans Pro", Helvetica, sans-serif;
+  margin: 0;
+}
+.sidebar2 {
+  position: fixed;
+  overflow: auto;
+}
+.site-main {
+  width: 100%;
+}
+/**
+ * content
+ */
+.content-area {
+  margin: 0px 0 0 210px;
+  padding: 60px 0 0 0;
+}
+/**
+ * footer
+ */
+.site-footer {
+  background-color: #e8e5ce;
+  color: #686758;
+  font-size: 14px;
+  text-align: center;
+  margin: 0 0 0 210px;
+}
+/*# sourceMappingURL=css/jwptheme.css.map */
