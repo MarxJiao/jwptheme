@@ -9,7 +9,7 @@
  * @since Twenty Thirteen 1.0
  */
 ?>
-<div class="panel">
+<div class="panel article">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> class="panel">
 	<header class="entry-header">
 		<?php if ( has_post_thumbnail() && ! post_password_required() && ! is_attachment() ) : ?>
