@@ -15,7 +15,7 @@ get_header(); ?>
 		<div id="content" class="site-content" role="main">
 
 		<?php if ( have_posts() ) : ?>
-			<header class="archive-header">
+			<header class="archive-header panel">
 				<h1 class="archive-title"><?php printf( __( 'Category Archives: %s', 'jwptheme' ), single_cat_title( '', false ) ); ?></h1>
 
 				<?php if ( category_description() ) : // Show an optional category description ?>

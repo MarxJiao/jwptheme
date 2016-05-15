@@ -23,7 +23,7 @@ get_header(); ?>
 		<div id="content" class="site-content" role="main">
 
 		<?php if ( have_posts() ) : ?>
-			<header class="archive-header">
+			<header class="archive-header panel">
 				<h1 class="archive-title"><?php
 					if ( is_day() ) :
 						printf( __( 'Daily Archives: %s', 'jwptheme' ), get_the_date() );

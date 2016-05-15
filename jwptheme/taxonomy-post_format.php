@@ -19,7 +19,7 @@ get_header(); ?>
 		<div id="content" class="site-content" role="main">
 
 		<?php if ( have_posts() ) : ?>
-			<header class="archive-header">
+			<header class="archive-header panel">
 				<h1 class="archive-title"><?php printf( __( '%s Archives', 'jwptheme' ), '<span>' . esc_html( get_post_format_string( get_post_format() ) ) . '</span>' ); ?></h1>
 			</header><!-- .archive-header -->
 
