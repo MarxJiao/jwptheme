@@ -17,7 +17,7 @@ module.exports = function (grunt) {
     // concat css and js files
     concat: {
         css: {
-            src: ['css/style.css','bower_components/bootstrap/dist/css/bootstrap.css','css/bootstrap-material-design.css','css/ripples.css','css/jwptheme.css'],
+            src: ['css/style.css','css/bootstrap-material-design.css','css/ripples.css','css/jwptheme.css'],
             dest: 'jwptheme/style.css',
         },
         js: {
