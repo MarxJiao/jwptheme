@@ -31,10 +31,8 @@
 <body <?php body_class(); ?>>
 	<div id="page" class="hfeed">
 		<header id="masthead" class="site-header" role="banner">
-			
-
 			<div id="navbar" class="navbar">
-				<div class="navbar-header manu-toggle">
+				<div class="navbar-header manu-toggle" >
 					<a class="navbar-brand">
 						<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
 					</a>

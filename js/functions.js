@@ -34,6 +34,9 @@
 				$( '#colophon' ).css( 'margin-top', margin + 'px' );
 			}
 		}
+		$('.manu-toggle').on('click', function () {
+			
+		})
 	} );
 
 	/**
