@@ -10,6 +10,11 @@
   width: 210px;
   z-index: 1;
   top: 60px;
+  left: 0;
+  transition: all 0.3s ease;
+}
+.site-main.active .sidebar-container {
+  left: -210px;
 }
 .site-main .widget-area {
   float: left;
@@ -56,6 +61,10 @@
 .content-area {
   margin: 0px 0 0 210px;
   padding: 60px 0 0 0;
+  transition: all 0.3s ease;
+}
+.active .content-area {
+  margin: 0;
 }
 .content-area .article {
   width: 90%;

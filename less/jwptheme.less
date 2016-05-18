@@ -13,8 +13,14 @@
         width: 210px;
         z-index: 1;
         top: 60px;
+        left: 0;
+        transition: all 0.3s ease;
     }
-    
+    &.active {
+        .sidebar-container {
+            left: -210px;
+        }
+    }
     .widget-area {
         float: left;
         width: 100%;
@@ -51,9 +57,7 @@
 	
 }
 .sidebar2{
-    
     position: fixed;
-    
     overflow: auto;
 }
 .site-main{
@@ -64,8 +68,12 @@
  * content
  */
 .content-area{
+    .active & {
+        margin: 0;
+    }
     margin: 0px 0 0 210px;
     padding: 60px 0 0 0;
+    transition: all 0.3s ease;
     // width: 100%;
     .article {
         width: 90%;
