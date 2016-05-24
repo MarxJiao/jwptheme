@@ -37,6 +37,7 @@
 		
 		$('.menu-toggle').on('click', function () {
 			$('#main').toggleClass('active');
+			$('.site-footer').toggleClass('active');
 		})
 	} );
 
